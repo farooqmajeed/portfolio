@@ -29,8 +29,8 @@ function ExperienceCard({ }: Props) {
   }, [])
 
   return (
-    <article className='flex flex-col rounded-lg  items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] 
-    snap-center bg-[#292929]  p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+    <article className='flex flex-col rounded-lg  items-center space-y-10 flex-shrink-0 w-[300px] md:w-[500px] xl:w-[500px] 
+    snap-center bg-[#292929]  px-5 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
       <motion.img
         initial={{
           y: -100,
@@ -39,11 +39,11 @@ function ExperienceCard({ }: Props) {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className='w-18 h-18 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
+        className='w-18 h-18 rounded-full xl:w-[100px] xl:h-[100px] object-cover object-center'
         src="/createch.jpeg"
       />
       <div className='px-0 md:px-10 text-center'>
-        <h4 className='text-3xl font-light'> Teamlead Frontend </h4>
+        <h4 className='text-2xl font-light'> Teamlead Frontend </h4>
         <p className='font-bold text-xl mt-1'> Createch Global Solutions</p>
         <div className='flex space-x-2 my-2 '>
           <img className='h-10 w-20 rounded-full'

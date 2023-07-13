@@ -8,6 +8,7 @@ import Skills from './Components/skills'
 import Carousal from './Components/Carousal'
 import { useState } from 'react'
 import { motion, AnimatePresence } from "framer-motion"
+import Projects from './Components/Projects'
 
 
 export default function Home() {
@@ -27,6 +28,9 @@ export default function Home() {
       </section>
       <section id="skills" className='snap-start'>
         <Skills />
+      </section>
+      <section id="projects" className='snap-start'>
+        <Projects />
       </section>
       {/* <section id="skills" className=' flex snap-start'>
       <Carousal sequence={'01'} backColor="gray" headline='JavaScript' imgSrc='https://images.unsplash.com/photo-1606800052052-a08af7148866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80' />
